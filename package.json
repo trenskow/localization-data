@@ -18,7 +18,7 @@
   "homepage": "https://github.com/trenskow/localization-data#readme",
   "dependencies": {
     "countries-list": "^2.5.1",
-    "merge": "^1.2.1"
+    "merge": "^2.1.1"
   },
   "devDependencies": {
     "xml2js": "^0.4.23"
