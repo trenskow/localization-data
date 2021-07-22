@@ -1,6 +1,6 @@
 {
   "name": "@trenskow/localization-data",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A collection of languages, scripts and countries.",
   "main": "index.js",
   "scripts": {
@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/trenskow/localization-data#readme",
   "dependencies": {
-    "countries-list": "^2.5.1",
-    "merge": "^1.2.1"
+    "countries-list": "^2.5.6",
+    "merge": "^2.1.1"
   },
   "devDependencies": {
     "xml2js": "^0.4.23"
