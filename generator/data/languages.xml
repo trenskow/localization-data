@@ -34,8 +34,10 @@
 	<language type="amo" scripts="Latn"/>
 	<language type="an" scripts="Latn"/>
 	<language type="ang" scripts="Latn" alt="secondary"/>
+	<language type="ann" scripts="Latn"/>
 	<language type="anp" scripts="Deva"/>
 	<language type="aoz" scripts="Latn"/>
+	<language type="apc" territories="IL JO LB PS SY TR" alt="secondary"/>
 	<language type="ar" scripts="Arab" territories="AE BH DJ DZ EG EH ER IL IQ JO KM KW LB LY MA MR OM PS QA SA SD SO SY TD TN YE"/>
 	<language type="ar" scripts="Syrc" territories="IR SS" alt="secondary"/>
 	<language type="arc" scripts="Armi Nbat Palm" alt="secondary"/>
@@ -45,6 +47,7 @@
 	<language type="arq" scripts="Arab"/>
 	<language type="arq" territories="DZ" alt="secondary"/>
 	<language type="ars" scripts="Arab"/>
+	<language type="ars" territories="SA" alt="secondary"/>
 	<language type="arw" scripts="Latn" alt="secondary"/>
 	<language type="ary" scripts="Arab"/>
 	<language type="ary" territories="MA" alt="secondary"/>
@@ -67,7 +70,7 @@
 	<language type="ba" scripts="Cyrl"/>
 	<language type="ba" territories="RU" alt="secondary"/>
 	<language type="bal" scripts="Arab"/>
-	<language type="bal" scripts="Latn" territories="AF IR PK" alt="secondary"/>
+	<language type="bal" scripts="Latn" territories="IR PK" alt="secondary"/>
 	<language type="ban" scripts="Latn"/>
 	<language type="ban" scripts="Bali" territories="ID" alt="secondary"/>
 	<language type="bap" scripts="Deva"/>
@@ -103,7 +106,6 @@
 	<language type="bhb" territories="IN" alt="secondary"/>
 	<language type="bhi" scripts="Deva"/>
 	<language type="bhi" territories="IN" alt="secondary"/>
-	<language type="bhk" territories="PH" alt="secondary"/>
 	<language type="bho" scripts="Deva"/>
 	<language type="bho" territories="IN MU NP" alt="secondary"/>
 	<language type="bi" scripts="Latn" territories="VU"/>
@@ -120,6 +122,7 @@
 	<language type="bku" scripts="Latn"/>
 	<language type="bku" scripts="Buhd" alt="secondary"/>
 	<language type="bla" scripts="Latn"/>
+	<language type="blo" scripts="Latn" territories="BJ TG"/>
 	<language type="blt" scripts="Tavt"/>
 	<language type="bm" scripts="Latn Nkoo"/>
 	<language type="bm" territories="ML" alt="secondary"/>
@@ -175,7 +178,7 @@
 	<language type="chn" scripts="Latn" alt="secondary"/>
 	<language type="cho" scripts="Latn"/>
 	<language type="chp" scripts="Latn"/>
-	<language type="chp" scripts="Cans" alt="secondary"/>
+	<language type="chp" scripts="Cans" territories="CA" alt="secondary"/>
 	<language type="chr" scripts="Cher"/>
 	<language type="chy" scripts="Latn"/>
 	<language type="cic" scripts="Latn"/>
@@ -187,10 +190,13 @@
 	<language type="ckb" scripts="Arab"/>
 	<language type="ckb" territories="IQ IR" alt="secondary"/>
 	<language type="ckt" scripts="Cyrl"/>
+	<language type="clc" scripts="Latn"/>
 	<language type="co" scripts="Latn"/>
 	<language type="cop" scripts="Arab Copt Grek" alt="secondary"/>
 	<language type="cps" scripts="Latn"/>
 	<language type="cr" scripts="Cans Latn"/>
+	<language type="cr" territories="CA" alt="secondary"/>
+	<language type="crg" scripts="Latn"/>
 	<language type="crh" scripts="Cyrl"/>
 	<language type="crj" scripts="Cans"/>
 	<language type="crj" scripts="Latn" alt="secondary"/>
@@ -218,19 +224,20 @@
 	<language type="dcc" scripts="Arab"/>
 	<language type="dcc" territories="IN" alt="secondary"/>
 	<language type="de" scripts="Latn" territories="AT BE CH DE LI LU"/>
-	<language type="de" scripts="Runr" territories="BR CZ DK FR GB HU KZ NL PL SI SK US" alt="secondary"/>
+	<language type="de" scripts="Runr" territories="BR CZ DK FI FR GB HU KZ NL PL SI SK US" alt="secondary"/>
 	<language type="del" scripts="Latn"/>
 	<language type="den" scripts="Latn"/>
-	<language type="den" scripts="Cans" alt="secondary"/>
+	<language type="den" scripts="Cans" territories="CA" alt="secondary"/>
 	<language type="dgr" scripts="Latn"/>
+	<language type="dgr" territories="CA" alt="secondary"/>
 	<language type="din" scripts="Latn"/>
 	<language type="dje" scripts="Latn"/>
 	<language type="dje" territories="NE" alt="secondary"/>
 	<language type="dng" scripts="Cyrl"/>
 	<language type="dnj" scripts="Latn"/>
 	<language type="dnj" territories="CI" alt="secondary"/>
-	<language type="doi" scripts="Arab"/>
-	<language type="doi" scripts="Takr" territories="IN" alt="secondary"/>
+	<language type="doi" scripts="Deva"/>
+	<language type="doi" scripts="Arab Takr" territories="IN" alt="secondary"/>
 	<language type="dsb" scripts="Latn"/>
 	<language type="dtm" scripts="Latn"/>
 	<language type="dtp" scripts="Latn"/>
@@ -253,12 +260,12 @@
 	<language type="eka" scripts="Latn"/>
 	<language type="eky" scripts="Kali"/>
 	<language type="el" scripts="Grek" territories="CY GR"/>
-	<language type="en" scripts="Latn" territories="AG AI AS AU BB BI BM BS BW BZ CA CC CK CM CX DG DM ER FJ FK FM GB GD GG GH GI GM GU GY HK IE IM IN IO JE JM KE KI KN KY LC LR LS MG MH MP MS MT MU MW NA NF NG NR NU NZ PG PH PK PN PR PW RW SB SC SD SG SH SL SS SX SZ TC TK TO TT TV TZ UG UM US VC VG VI VU WS ZA ZM ZW"/>
-	<language type="en" scripts="Dsrt Shaw" territories="AC AE AR AT BA BD BE BG BR CH CL CY CZ DE DK DZ EE EG ES ET FI FR GR HR HU IL IQ IT JO KZ LB LK LT LU LV MA MX MY NL PL PT RO SE SI SK TA TH TR YE" alt="secondary"/>
+	<language type="en" scripts="Latn" territories="AG AI AS AU BB BI BM BS BW BZ CA CC CK CM CQ CX DG DM ER FJ FK FM GB GD GG GH GI GM GU GY HK IE IM IN IO JE JM KE KI KN KY LC LR LS MG MH MP MS MT MU MW NA NF NG NR NU NZ PG PH PK PN PR PW RW SB SC SD SG SH SL SS SX SZ TC TK TO TT TV TZ UG UM US VC VG VI VU WS ZA ZM ZW"/>
+	<language type="en" scripts="Dsrt Shaw" territories="AC AE AR AT BA BD BE BG BR CH CL CY CZ DE DK DZ EE EG ES ET FI FR GR HR HU IL IQ IT JO KZ LB LK LT LU LV MA MV MX MY NL PL PT RO SE SI SK TA TH TR YE" alt="secondary"/>
 	<language type="enm" scripts="Latn" alt="secondary"/>
 	<language type="eo" scripts="Latn"/>
 	<language type="es" scripts="Latn" territories="AR BO CL CO CR CU DO EA EC ES GQ GT HN IC MX NI PA PE PR PY SV UY VE"/>
-	<language type="es" territories="AD BZ DE FR GI PH PT RO US" alt="secondary"/>
+	<language type="es" territories="AD BZ DE FR GB GI PH PT RO US" alt="secondary"/>
 	<language type="esu" scripts="Latn"/>
 	<language type="et" scripts="Latn" territories="EE"/>
 	<language type="ett" scripts="Ital Latn" alt="secondary"/>
@@ -271,6 +278,7 @@
 	<language type="fa" territories="PK" alt="secondary"/>
 	<language type="fan" scripts="Latn"/>
 	<language type="fan" territories="GQ" alt="secondary"/>
+	<language type="fbl" territories="PH" alt="secondary"/>
 	<language type="ff" scripts="Latn"/>
 	<language type="ff" scripts="Adlm" territories="GN SN" alt="secondary"/>
 	<language type="ffm" scripts="Latn"/>
@@ -292,6 +300,7 @@
 	<language type="fro" scripts="Latn" alt="secondary"/>
 	<language type="frp" scripts="Latn"/>
 	<language type="frr" scripts="Latn"/>
+	<language type="frr" territories="DE" alt="secondary"/>
 	<language type="frs" scripts="Latn"/>
 	<language type="fud" scripts="Latn"/>
 	<language type="fud" territories="WF" alt="secondary"/>
@@ -347,15 +356,17 @@
 	<language type="gsw" scripts="Latn" territories="CH LI"/>
 	<language type="gsw" territories="DE" alt="secondary"/>
 	<language type="gu" scripts="Gujr"/>
-	<language type="gu" territories="IN" alt="secondary"/>
+	<language type="gu" territories="GB IN" alt="secondary"/>
 	<language type="gub" scripts="Latn"/>
 	<language type="guc" scripts="Latn"/>
 	<language type="gur" scripts="Latn"/>
+	<language type="gur" territories="GH" alt="secondary"/>
 	<language type="guz" scripts="Latn"/>
 	<language type="guz" territories="KE" alt="secondary"/>
 	<language type="gv" scripts="Latn" territories="IM"/>
 	<language type="gvr" scripts="Deva"/>
 	<language type="gwi" scripts="Latn"/>
+	<language type="gwi" territories="CA" alt="secondary"/>
 	<language type="ha" scripts="Arab Latn"/>
 	<language type="ha" territories="NE NG" alt="secondary"/>
 	<language type="hai" scripts="Latn"/>
@@ -367,7 +378,7 @@
 	<language type="haz" territories="AF" alt="secondary"/>
 	<language type="he" scripts="Hebr" territories="IL"/>
 	<language type="hi" scripts="Deva" territories="IN"/>
-	<language type="hi" scripts="Latn Mahj" territories="FJ ZA" alt="secondary"/>
+	<language type="hi" scripts="Latn Mahj" territories="FJ IN ZA" alt="secondary"/>
 	<language type="hif" scripts="Deva Latn" territories="FJ"/>
 	<language type="hil" scripts="Latn"/>
 	<language type="hil" territories="PH" alt="secondary"/>
@@ -398,6 +409,7 @@
 	<language type="hu" scripts="Latn" territories="HU"/>
 	<language type="hu" territories="AT RO RS" alt="secondary"/>
 	<language type="hup" scripts="Latn"/>
+	<language type="hur" scripts="Latn"/>
 	<language type="hy" scripts="Armn" territories="AM"/>
 	<language type="hy" territories="RU" alt="secondary"/>
 	<language type="hz" scripts="Latn"/>
@@ -414,7 +426,6 @@
 	<language type="ii" scripts="Latn" territories="CN" alt="secondary"/>
 	<language type="ik" scripts="Latn"/>
 	<language type="ikt" scripts="Latn"/>
-	<language type="ikt" territories="CA" alt="secondary"/>
 	<language type="ilo" scripts="Latn"/>
 	<language type="ilo" territories="PH" alt="secondary"/>
 	<language type="inh" scripts="Cyrl"/>
@@ -525,9 +536,12 @@
 	<language type="kvr" scripts="Latn"/>
 	<language type="kvx" scripts="Arab"/>
 	<language type="kw" scripts="Latn"/>
+	<language type="kwk" scripts="Latn"/>
 	<language type="kxm" scripts="Thai"/>
 	<language type="kxm" territories="TH" alt="secondary"/>
 	<language type="kxp" scripts="Arab"/>
+	<language type="kxv" scripts="Latn"/>
+	<language type="kxv" scripts="Deva Orya Telu" alt="secondary"/>
 	<language type="ky" scripts="Arab Cyrl Latn" territories="KG"/>
 	<language type="kyu" scripts="Kali"/>
 	<language type="la" scripts="Latn" territories="VA" alt="secondary"/>
@@ -553,6 +567,7 @@
 	<language type="li" scripts="Latn"/>
 	<language type="lif" scripts="Deva Limb"/>
 	<language type="lij" scripts="Latn"/>
+	<language type="lil" scripts="Latn"/>
 	<language type="lis" scripts="Lisu"/>
 	<language type="liv" scripts="Latn" alt="secondary"/>
 	<language type="ljp" scripts="Latn"/>
@@ -562,11 +577,13 @@
 	<language type="lmn" scripts="Telu"/>
 	<language type="lmn" territories="IN" alt="secondary"/>
 	<language type="lmo" scripts="Latn"/>
+	<language type="lmo" territories="IT" alt="secondary"/>
 	<language type="ln" scripts="Latn"/>
 	<language type="ln" territories="CD" alt="secondary"/>
 	<language type="lo" scripts="Laoo" territories="LA"/>
 	<language type="lol" scripts="Latn"/>
 	<language type="loz" scripts="Latn"/>
+	<language type="loz" territories="ZM" alt="secondary"/>
 	<language type="lrc" scripts="Arab"/>
 	<language type="lrc" territories="IR" alt="secondary"/>
 	<language type="lt" scripts="Latn" territories="LT"/>
@@ -689,6 +706,7 @@
 	<language type="ne" scripts="Deva" territories="NP"/>
 	<language type="ne" territories="IN" alt="secondary"/>
 	<language type="new" scripts="Deva"/>
+	<language type="new" territories="NP" alt="secondary"/>
 	<language type="ng" scripts="Latn"/>
 	<language type="ng" territories="NA" alt="secondary"/>
 	<language type="ngl" scripts="Latn"/>
@@ -704,6 +722,7 @@
 	<language type="nmg" scripts="Latn"/>
 	<language type="nn" scripts="Latn" territories="NO"/>
 	<language type="nnh" scripts="Latn"/>
+	<language type="no" scripts="Latn" territories="NO"/>
 	<language type="nod" scripts="Lana"/>
 	<language type="nod" territories="TH" alt="secondary"/>
 	<language type="noe" scripts="Deva"/>
@@ -730,9 +749,11 @@
 	<language type="nyo" scripts="Latn"/>
 	<language type="nzi" scripts="Latn"/>
 	<language type="oc" scripts="Latn"/>
-	<language type="oc" territories="FR" alt="secondary"/>
+	<language type="oc" territories="ES FR" alt="secondary"/>
 	<language type="oj" scripts="Cans"/>
 	<language type="oj" scripts="Latn" alt="secondary"/>
+	<language type="ojs" scripts="Cans"/>
+	<language type="oka" scripts="Latn"/>
 	<language type="om" scripts="Latn"/>
 	<language type="om" scripts="Ethi" territories="ET" alt="secondary"/>
 	<language type="or" scripts="Orya"/>
@@ -744,7 +765,7 @@
 	<language type="osc" scripts="Ital Latn" alt="secondary"/>
 	<language type="otk" scripts="Orkh" alt="secondary"/>
 	<language type="pa" scripts="Arab Guru"/>
-	<language type="pa" territories="IN PK" alt="secondary"/>
+	<language type="pa" territories="GB IN PK" alt="secondary"/>
 	<language type="pag" scripts="Latn"/>
 	<language type="pag" territories="PH" alt="secondary"/>
 	<language type="pal" scripts="Phli Phlp" alt="secondary"/>
@@ -762,13 +783,16 @@
 	<language type="pfl" scripts="Latn"/>
 	<language type="phn" scripts="Phnx" alt="secondary"/>
 	<language type="pi" scripts="Deva Sinh Thai" alt="secondary"/>
+	<language type="pis" scripts="Latn"/>
+	<language type="pis" territories="SB" alt="secondary"/>
 	<language type="pko" scripts="Latn"/>
 	<language type="pl" scripts="Latn" territories="PL"/>
-	<language type="pl" territories="UA" alt="secondary"/>
+	<language type="pl" territories="GB UA" alt="secondary"/>
 	<language type="pms" scripts="Latn"/>
 	<language type="pnt" scripts="Cyrl Grek Latn"/>
 	<language type="pon" scripts="Latn"/>
 	<language type="pon" territories="FM" alt="secondary"/>
+	<language type="pqm" scripts="Latn"/>
 	<language type="prd" scripts="Arab"/>
 	<language type="prg" scripts="Latn" alt="secondary"/>
 	<language type="pro" scripts="Latn" alt="secondary"/>
@@ -789,6 +813,8 @@
 	<language type="rej" scripts="Latn"/>
 	<language type="rej" scripts="Rjng" territories="ID" alt="secondary"/>
 	<language type="rgn" scripts="Latn"/>
+	<language type="rhg" scripts="Rohg"/>
+	<language type="rhg" scripts="Arab Latn" alt="secondary"/>
 	<language type="ria" scripts="Latn"/>
 	<language type="rif" scripts="Latn Tfng"/>
 	<language type="rif" territories="MA" alt="secondary"/>
@@ -804,6 +830,7 @@
 	<language type="rmu" scripts="Latn"/>
 	<language type="rn" scripts="Latn" territories="BI"/>
 	<language type="rng" scripts="Latn"/>
+	<language type="rng" territories="MZ" alt="secondary"/>
 	<language type="ro" scripts="Latn" territories="MD RO"/>
 	<language type="ro" scripts="Cyrl" territories="RS" alt="secondary"/>
 	<language type="rob" scripts="Latn"/>
@@ -880,6 +907,7 @@
 	<language type="smn" scripts="Latn"/>
 	<language type="smp" scripts="Samr" alt="secondary"/>
 	<language type="sms" scripts="Latn"/>
+	<language type="sms" territories="FI" alt="secondary"/>
 	<language type="sn" scripts="Latn" territories="ZW"/>
 	<language type="snf" territories="SN" alt="secondary"/>
 	<language type="snk" scripts="Latn"/>
@@ -925,7 +953,7 @@
 	<language type="syr" scripts="Syrc" alt="secondary"/>
 	<language type="szl" scripts="Latn"/>
 	<language type="ta" scripts="Taml" territories="LK SG"/>
-	<language type="ta" territories="IN MY" alt="secondary"/>
+	<language type="ta" territories="GB IN MY" alt="secondary"/>
 	<language type="tab" scripts="Cyrl"/>
 	<language type="taj" scripts="Deva"/>
 	<language type="taj" scripts="Tibt" alt="secondary"/>
@@ -963,6 +991,7 @@
 	<language type="tkt" scripts="Deva"/>
 	<language type="tli" scripts="Latn"/>
 	<language type="tly" scripts="Arab Cyrl Latn"/>
+	<language type="tly" territories="AZ" alt="secondary"/>
 	<language type="tmh" scripts="Latn"/>
 	<language type="tmh" territories="NE" alt="secondary"/>
 	<language type="tn" scripts="Latn" territories="BW"/>
@@ -970,12 +999,14 @@
 	<language type="tnr" territories="SN" alt="secondary"/>
 	<language type="to" scripts="Latn" territories="TO"/>
 	<language type="tog" scripts="Latn"/>
+	<language type="tok" scripts="Latn" alt="secondary"/>
 	<language type="tpi" scripts="Latn" territories="PG"/>
 	<language type="tr" scripts="Latn" territories="CY TR"/>
 	<language type="tr" scripts="Arab" territories="DE" alt="secondary"/>
 	<language type="tru" scripts="Latn"/>
 	<language type="tru" scripts="Syrc" alt="secondary"/>
 	<language type="trv" scripts="Latn"/>
+	<language type="trw" scripts="Arab"/>
 	<language type="ts" scripts="Latn"/>
 	<language type="ts" territories="MZ ZA" alt="secondary"/>
 	<language type="tsd" scripts="Grek"/>
@@ -1014,13 +1045,14 @@
 	<language type="unr" territories="IN" alt="secondary"/>
 	<language type="unx" scripts="Beng Deva"/>
 	<language type="ur" scripts="Arab" territories="PK"/>
-	<language type="ur" territories="IN" alt="secondary"/>
+	<language type="ur" territories="GB IN" alt="secondary"/>
 	<language type="uz" scripts="Arab Cyrl Latn" territories="UZ"/>
 	<language type="uz" territories="AF" alt="secondary"/>
 	<language type="vai" scripts="Latn Vaii"/>
 	<language type="ve" scripts="Latn"/>
 	<language type="ve" territories="ZA" alt="secondary"/>
 	<language type="vec" scripts="Latn"/>
+	<language type="vec" territories="BR HR IT MX SI" alt="secondary"/>
 	<language type="vep" scripts="Latn"/>
 	<language type="vi" scripts="Latn" territories="VN"/>
 	<language type="vi" scripts="Hani" territories="US" alt="secondary"/>
