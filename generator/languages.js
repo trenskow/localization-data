@@ -1,6 +1,6 @@
 'use strict';
 
-const { languagesAll, countries } = require('countries-list');
+const { languages: languagesAll, countries } = require('countries-list');
 
 const { promisify } = require('util');
 const fs = require('fs');
@@ -59,7 +59,7 @@ module.exports = exports = () => {
 					});
 					return res;
 				}, {});
-			
+
 		}).
 		then((languages) => {
 			return JSON.stringify(languages);
@@ -67,5 +67,5 @@ module.exports = exports = () => {
 		.then((languagesJson) => {
 			return promisify(fs.writeFile)(__dirname + '/../dist/languages-scripts.json', languagesJson);
 		});
-		
+
 };

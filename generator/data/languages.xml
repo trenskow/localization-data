@@ -122,7 +122,7 @@
 	<language type="bku" scripts="Latn"/>
 	<language type="bku" scripts="Buhd" alt="secondary"/>
 	<language type="bla" scripts="Latn"/>
-	<language type="blo" scripts="Latn" territories="BJ TG"/>
+	<language type="blo" scripts="Latn"/>
 	<language type="blt" scripts="Tavt"/>
 	<language type="bm" scripts="Latn Nkoo"/>
 	<language type="bm" territories="ML" alt="secondary"/>
@@ -419,6 +419,7 @@
 	<language type="ibb" territories="NG" alt="secondary"/>
 	<language type="id" scripts="Latn" territories="ID"/>
 	<language type="id" scripts="Arab" alt="secondary"/>
+	<language type="ie" scripts="Latn" alt="secondary"/>
 	<language type="ife" scripts="Latn"/>
 	<language type="ig" scripts="Latn"/>
 	<language type="ig" territories="NG" alt="secondary"/>
