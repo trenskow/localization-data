@@ -1,6 +1,6 @@
 {
   "name": "@trenskow/localization-data",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "A collection of languages, scripts and countries.",
   "main": "index.js",
   "scripts": {
