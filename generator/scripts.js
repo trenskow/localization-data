@@ -25,23 +25,23 @@ module.exports = exports = () => {
 				}).join('');
 			all.push(line.split('|||'));
 		});
-	
+
 		const convertDirection = (dir) => {
 			switch (dir) {
-			case 'R-to-L':
+			case 'right-to-left':
 				return 'rl';
-			case 'L-to-R':
+			case 'left-to-right':
 				return 'lr';
-			case 'T-to-B':
+			case 'top-to-bottom':
 				return 'tb';
 			default:
 				return dir.toLowerCase();
 			}
 		};
-	
+
 		rl.on('close', () => {
 			fs.writeFile(
-				__dirname + '/../dist/scripts.json', 
+				__dirname + '/../dist/scripts.json',
 				JSON.stringify(all
 					.filter((line) => {
 						const include = line[4];
@@ -62,8 +62,7 @@ module.exports = exports = () => {
 							code: line[0],
 							no: line[1],
 							name: line[2],
-							direction: convertDirection(line[4]),
-							characters: parseInt(line[6].replace(/\D/g, ''))
+							direction: convertDirection(line[3].split(/[, ]/)[0])
 						};
 					})
 					.reduce((res, script) => {
@@ -73,13 +72,13 @@ module.exports = exports = () => {
 							direction: script.direction
 						};
 						return res;
-					}, {})), 
+					}, {})),
 				(err) => {
 					if (err) return reject(err);
 					resolv();
 				});
 		});
-	
+
 	});
 
 };
