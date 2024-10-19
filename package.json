@@ -1,26 +1,31 @@
 {
-  "name": "@trenskow/localization-data",
-  "version": "1.3.4",
-  "description": "A collection of languages, scripts and countries.",
-  "main": "index.js",
-  "scripts": {
-    "generate": "node ./generator/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/trenskow/localization-data.git"
-  },
-  "author": "Kristian Trenskow <trenskow@me.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/trenskow/localization-data/issues"
-  },
-  "homepage": "https://github.com/trenskow/localization-data#readme",
-  "dependencies": {
-    "countries-list": "^3.1.0",
-    "merge": "^2.1.1"
-  },
-  "devDependencies": {
-    "xml2js": "^0.6.2"
-  }
+	"name": "@trenskow/localization-data",
+	"version": "1.3.4",
+	"description": "A collection of languages, scripts and countries.",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"generate": "node ./generator/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/trenskow/localization-data.git"
+	},
+	"author": "Kristian Trenskow <trenskow@me.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/trenskow/localization-data/issues"
+	},
+	"homepage": "https://github.com/trenskow/localization-data#readme",
+	"dependencies": {
+		"countries-list": "^3.1.0",
+		"merge": "^2.1.1"
+	},
+	"devDependencies": {
+		"@eslint/eslintrc": "^3.1.0",
+		"@eslint/js": "^9.13.0",
+		"eslint": "^9.13.0",
+		"globals": "^15.11.0",
+		"xml2js": "^0.6.2"
+	}
 }

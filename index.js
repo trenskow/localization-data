@@ -1,14 +1,13 @@
-'use string';
+import { readFileSync } from 'fs';
+import { join } from 'path';
 
-const
-	countriesList = require('countries-list'),
-	merge = require('merge');
+import { countries, languages } from 'countries-list';
+import merge from 'merge';
 
-const
-	scripts = require('./dist/scripts.json'),
-	languagesScripts = require('./dist/languages-scripts.json');
+const scripts = JSON.parse(readFileSync(join(import.meta.dirname, 'dist', 'scripts.json'), 'utf8'));
+const languagesScripts = JSON.parse(readFileSync(join(import.meta.dirname, 'dist', 'languages-scripts.json'), 'utf8'));
 
-module.exports = merge({}, countriesList, {
+export default merge({}, countries, {
 	scripts: scripts,
-	languages: merge.recursive(countriesList.languages, languagesScripts)
+	languages: merge.recursive(languages, languagesScripts)
 });
