@@ -18,8 +18,8 @@
 	},
 	"homepage": "https://github.com/trenskow/localization-data#readme",
 	"dependencies": {
-		"@trenskow/merge": "^0.1.26",
-		"countries-list": "^3.1.0"
+		"@trenskow/merge": "^0.1.27",
+		"countries-list": "^3.1.1"
 	},
 	"devDependencies": {
 		"@eslint/eslintrc": "^3.1.0",
