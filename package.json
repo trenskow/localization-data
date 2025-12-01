@@ -22,7 +22,7 @@
 		"countries-list": "^3.2.0"
 	},
 	"devDependencies": {
-		"@eslint/eslintrc": "^3.3.1",
+		"@eslint/eslintrc": "^3.3.3",
 		"@eslint/js": "^9.13.0",
 		"eslint": "^9.39.1",
 		"globals": "^16.5.0",
