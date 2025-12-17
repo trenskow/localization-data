@@ -18,7 +18,7 @@
 	},
 	"homepage": "https://github.com/trenskow/localization-data#readme",
 	"dependencies": {
-		"@trenskow/merge": "^0.1.47",
+		"@trenskow/merge": "^0.1.48",
 		"countries-list": "^3.2.2"
 	},
 	"devDependencies": {
