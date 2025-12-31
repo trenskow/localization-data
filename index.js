@@ -1,11 +1,8 @@
-import { readFileSync } from 'fs';
-import { join } from 'path';
-
 import { countries, languages } from 'countries-list';
 import merge from '@trenskow/merge';
 
-const scripts = JSON.parse(readFileSync(join(import.meta.dirname, 'dist', 'scripts.json'), 'utf8'));
-const languagesScripts = JSON.parse(readFileSync(join(import.meta.dirname, 'dist', 'languages-scripts.json'), 'utf8'));
+import scripts from './dist/scripts.js';
+import languagesScripts from './dist/languages-scripts.js';
 
 export default merge({}, { countries }, {
 	scripts: scripts,

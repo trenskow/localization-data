@@ -1,0 +1,259 @@
+export default {
+	'Adlm': { 'no': '166', 'name': 'Adlam', 'direction': 'rl' },
+	'Afak': { 'no': '439', 'name': 'Afaka', 'direction': 'varies' },
+	'Arab': { 'no': '160', 'name': 'Arabic', 'direction': 'rl' },
+	'Aran': {
+		'no': '161',
+		'name': 'Arabic (Nastaliq variant)',
+		'direction': 'mixed'
+	},
+	'Armn': { 'no': '230', 'name': 'Armenian', 'direction': 'lr' },
+	'Bali': { 'no': '360', 'name': 'Balinese', 'direction': 'lr' },
+	'Bamu': { 'no': '435', 'name': 'Bamum', 'direction': 'lr' },
+	'Batk': { 'no': '365', 'name': 'Batak', 'direction': 'lr' },
+	'Beng': { 'no': '325', 'name': 'Bengali (Bangla)', 'direction': 'lr' },
+	'Blis': { 'no': '550', 'name': 'Blissymbols', 'direction': 'varies' },
+	'Bopo': { 'no': '285', 'name': 'Bopomofo', 'direction': 'lr' },
+	'Brai': { 'no': '570', 'name': 'Braille', 'direction': 'lr' },
+	'Bugi': { 'no': '367', 'name': 'Buginese', 'direction': 'lr' },
+	'Buhd': { 'no': '372', 'name': 'Buhid', 'direction': 'lr' },
+	'Cakm': { 'no': '349', 'name': 'Chakma', 'direction': 'lr' },
+	'Cans': {
+		'no': '440',
+		'name': 'Unified Canadian Aboriginal Syllabics',
+		'direction': 'lr'
+	},
+	'Cham': { 'no': '358', 'name': 'Cham', 'direction': 'lr' },
+	'Cher': { 'no': '445', 'name': 'Cherokee', 'direction': 'lr' },
+	'Chis': { 'no': '298', 'name': 'Chisoi', 'direction': 'lr' },
+	'Cirt': { 'no': '291', 'name': 'Cirth', 'direction': 'varies' },
+	'Cyrl': { 'no': '220', 'name': 'Cyrillic', 'direction': 'lr' },
+	'Deva': { 'no': '315', 'name': 'Devanagari (Nagari)', 'direction': 'lr' },
+	'Dsrt': { 'no': '250', 'name': 'Deseret (Mormon)', 'direction': 'lr' },
+	'Dupl': {
+		'no': '755',
+		'name': 'Duployan shorthand, Duployan stenography',
+		'direction': 'lr'
+	},
+	'Egyd': { 'no': '070', 'name': 'Egyptian demotic', 'direction': 'mixed' },
+	'Egyh': { 'no': '060', 'name': 'Egyptian hieratic', 'direction': 'mixed' },
+	'Ethi': { 'no': '430', 'name': 'Ethiopic (Geʻez)', 'direction': 'lr' },
+	'Gara': { 'no': '164', 'name': 'Garay', 'direction': 'rl' },
+	'Geok': {
+		'no': '241',
+		'name': 'Khutsuri (Asomtavruli and Nuskhuri)',
+		'direction': 'lr'
+	},
+	'Geor': {
+		'no': '240',
+		'name': 'Georgian (Mkhedruli and Mtavruli)',
+		'direction': 'lr'
+	},
+	'Gong': { 'no': '312', 'name': 'Gunjala Gondi', 'direction': 'lr' },
+	'Gonm': { 'no': '313', 'name': 'Masaram Gondi', 'direction': 'lr' },
+	'Grek': { 'no': '200', 'name': 'Greek', 'direction': 'lr' },
+	'Gujr': { 'no': '320', 'name': 'Gujarati', 'direction': 'lr' },
+	'Gukh': { 'no': '397', 'name': 'Gurung Khema', 'direction': 'lr' },
+	'Guru': { 'no': '310', 'name': 'Gurmukhi', 'direction': 'lr' },
+	'Hanb': {
+		'no': '503',
+		'name': 'Han with Bopomofo (alias for Han + Bopomofo)',
+		'direction': 'mixed'
+	},
+	'Hang': {
+		'no': '286',
+		'name': 'Hangul (Hangŭl, Hangeul)',
+		'direction': 'lr'
+	},
+	'Hani': {
+		'no': '500',
+		'name': 'Han (Hanzi, Kanji, Hanja)',
+		'direction': 'tb'
+	},
+	'Hano': { 'no': '371', 'name': 'Hanunoo (Hanunóo)', 'direction': 'lr' },
+	'Hans': {
+		'no': '501',
+		'name': 'Han (Simplified variant)',
+		'direction': 'varies'
+	},
+	'Hant': {
+		'no': '502',
+		'name': 'Han (Traditional variant)',
+		'direction': 'varies'
+	},
+	'Hebr': { 'no': '125', 'name': 'Hebrew', 'direction': 'rl' },
+	'Hira': { 'no': '410', 'name': 'Hiragana', 'direction': 'vertical' },
+	'Hmng': { 'no': '450', 'name': 'Pahawh Hmong', 'direction': 'lr' },
+	'Hmnp': { 'no': '451', 'name': 'Nyiakeng Puachue Hmong', 'direction': 'lr' },
+	'Hrkt': {
+		'no': '412',
+		'name': 'Japanese syllabaries (alias for Hiragana + Katakana)',
+		'direction': 'vertical'
+	},
+	'Inds': { 'no': '610', 'name': 'Indus (Harappan)', 'direction': 'mixed' },
+	'Jamo': {
+		'no': '284',
+		'name': 'Jamo (alias for Jamo subset of Hangul)',
+		'direction': 'varies'
+	},
+	'Java': { 'no': '361', 'name': 'Javanese', 'direction': 'lr' },
+	'Jpan': {
+		'no': '413',
+		'name': 'Japanese (alias for Han + Hiragana + Katakana)',
+		'direction': 'varies'
+	},
+	'Jurc': { 'no': '510', 'name': 'Jurchen', 'direction': 'lr' },
+	'Kali': { 'no': '357', 'name': 'Kayah Li', 'direction': 'lr' },
+	'Kana': { 'no': '411', 'name': 'Katakana', 'direction': 'vertical' },
+	'Khmr': { 'no': '355', 'name': 'Khmer', 'direction': 'lr' },
+	'Kitl': { 'no': '505', 'name': 'Khitan large script', 'direction': 'lr' },
+	'Knda': { 'no': '345', 'name': 'Kannada', 'direction': 'lr' },
+	'Kore': {
+		'no': '287',
+		'name': 'Korean (alias for Hangul + Han)',
+		'direction': 'lr'
+	},
+	'Kpel': { 'no': '436', 'name': 'Kpelle', 'direction': 'lr' },
+	'Krai': { 'no': '396', 'name': 'Kirat Rai', 'direction': 'lr' },
+	'Lana': { 'no': '351', 'name': 'Tai Tham (Lanna)', 'direction': 'lr' },
+	'Laoo': { 'no': '356', 'name': 'Lao', 'direction': 'lr' },
+	'Latf': {
+		'no': '217',
+		'name': 'Latin (Fraktur variant)',
+		'direction': 'varies'
+	},
+	'Latg': { 'no': '216', 'name': 'Latin (Gaelic variant)', 'direction': 'lr' },
+	'Latn': { 'no': '215', 'name': 'Latin', 'direction': 'lr' },
+	'Leke': { 'no': '364', 'name': 'Leke', 'direction': 'lr' },
+	'Lepc': { 'no': '335', 'name': 'Lepcha (Róng)', 'direction': 'lr' },
+	'Limb': { 'no': '336', 'name': 'Limbu', 'direction': 'lr' },
+	'Lisu': { 'no': '399', 'name': 'Lisu (Fraser)', 'direction': 'lr' },
+	'Loma': { 'no': '437', 'name': 'Loma', 'direction': 'lr' },
+	'Mand': { 'no': '140', 'name': 'Mandaic, Mandaean', 'direction': 'rl' },
+	'Maya': { 'no': '090', 'name': 'Mayan hieroglyphs', 'direction': 'mixed' },
+	'Medf': {
+		'no': '265',
+		'name': 'Medefaidrin (Oberi Okaime, Oberi Ɔkaimɛ)',
+		'direction': 'lr'
+	},
+	'Mend': { 'no': '438', 'name': 'Mende Kikakui', 'direction': 'rl' },
+	'Mlym': { 'no': '347', 'name': 'Malayalam', 'direction': 'lr' },
+	'Mong': { 'no': '145', 'name': 'Mongolian', 'direction': 'vertical' },
+	'Moon': {
+		'no': '218',
+		'name': 'Moon (Moon code, Moon script, Moon type)',
+		'direction': 'mixed'
+	},
+	'Mroo': { 'no': '264', 'name': 'Mro, Mru', 'direction': 'lr' },
+	'Mtei': {
+		'no': '337',
+		'name': 'Meitei Mayek (Meithei, Meetei)',
+		'direction': 'lr'
+	},
+	'Mymr': { 'no': '350', 'name': 'Myanmar (Burmese)', 'direction': 'lr' },
+	'Nagm': { 'no': '295', 'name': 'Nag Mundari', 'direction': 'lr' },
+	'Newa': {
+		'no': '333',
+		'name': 'Newa, Newar, Newari, Nepāla lipi',
+		'direction': 'lr'
+	},
+	'Nkdb': {
+		'no': '085',
+		'name': 'Naxi Dongba (na²¹ɕi³³ to³³ba²¹, Nakhi Tomba)',
+		'direction': 'lr'
+	},
+	'Nkgb': {
+		'no': '420',
+		'name': 'Naxi Geba (na²¹ɕi³³ gʌ²¹ba²¹, \'Na-\'Khi ²Ggŏ-¹baw, Nakhi Geba)',
+		'direction': 'lr'
+	},
+	'Nkoo': { 'no': '165', 'name': 'N’Ko', 'direction': 'rl' },
+	'Nshu': { 'no': '499', 'name': 'Nüshu', 'direction': 'vertical' },
+	'Olck': {
+		'no': '261',
+		'name': 'Ol Chiki (Ol Cemet’, Ol, Santali)',
+		'direction': 'lr'
+	},
+	'Onao': { 'no': '296', 'name': 'Ol Onal', 'direction': 'lr' },
+	'Orya': { 'no': '327', 'name': 'Oriya (Odia)', 'direction': 'lr' },
+	'Osge': { 'no': '219', 'name': 'Osage', 'direction': 'lr' },
+	'Osma': { 'no': '260', 'name': 'Osmanya', 'direction': 'lr' },
+	'Pauc': { 'no': '263', 'name': 'Pau Cin Hau', 'direction': 'lr' },
+	'Pcun': { 'no': '015', 'name': 'Proto-Cuneiform', 'direction': 'lr' },
+	'Pelm': { 'no': '016', 'name': 'Proto-Elamite', 'direction': 'lr' },
+	'Phlv': { 'no': '133', 'name': 'Book Pahlavi', 'direction': 'mixed' },
+	'Piqd': { 'no': '293', 'name': 'Klingon (KLI pIqaD)', 'direction': 'lr' },
+	'Plrd': { 'no': '282', 'name': 'Miao (Pollard)', 'direction': 'lr' },
+	'Psin': { 'no': '103', 'name': 'Proto-Sinaitic', 'direction': 'mixed' },
+	'Ranj': { 'no': '303', 'name': 'Ranjana', 'direction': 'lr' },
+	'Rjng': {
+		'no': '363',
+		'name': 'Rejang (Redjang, Kaganga)',
+		'direction': 'lr'
+	},
+	'Rohg': { 'no': '167', 'name': 'Hanifi Rohingya', 'direction': 'rl' },
+	'Roro': { 'no': '620', 'name': 'Rongorongo', 'direction': 'mixed' },
+	'Samr': { 'no': '123', 'name': 'Samaritan', 'direction': 'rl' },
+	'Sara': { 'no': '292', 'name': 'Sarati', 'direction': 'mixed' },
+	'Saur': { 'no': '344', 'name': 'Saurashtra', 'direction': 'lr' },
+	'Sgnw': { 'no': '095', 'name': 'SignWriting', 'direction': 'vertical' },
+	'Shaw': { 'no': '281', 'name': 'Shavian (Shaw)', 'direction': 'lr' },
+	'Shrd': { 'no': '319', 'name': 'Sharada, Śāradā', 'direction': 'lr' },
+	'Shui': { 'no': '530', 'name': 'Shuishu', 'direction': 'lr' },
+	'Sidt': { 'no': '180', 'name': 'Sidetic', 'direction': 'rl' },
+	'Sind': { 'no': '318', 'name': 'Khudawadi, Sindhi', 'direction': 'lr' },
+	'Sinh': { 'no': '348', 'name': 'Sinhala', 'direction': 'lr' },
+	'Sora': { 'no': '398', 'name': 'Sora Sompeng', 'direction': 'lr' },
+	'Sund': { 'no': '362', 'name': 'Sundanese', 'direction': 'lr' },
+	'Sunu': { 'no': '274', 'name': 'Sunuwar', 'direction': 'lr' },
+	'Syrc': { 'no': '135', 'name': 'Syriac', 'direction': 'rl' },
+	'Syre': {
+		'no': '138',
+		'name': 'Syriac (Estrangelo variant)',
+		'direction': 'mixed'
+	},
+	'Syrj': {
+		'no': '137',
+		'name': 'Syriac (Western variant)',
+		'direction': 'mixed'
+	},
+	'Syrn': {
+		'no': '136',
+		'name': 'Syriac (Eastern variant)',
+		'direction': 'mixed'
+	},
+	'Tagb': { 'no': '373', 'name': 'Tagbanwa', 'direction': 'lr' },
+	'Takr': { 'no': '321', 'name': 'Takri, Ṭākrī, Ṭāṅkrī', 'direction': 'lr' },
+	'Tale': { 'no': '353', 'name': 'Tai Le', 'direction': 'lr' },
+	'Talu': { 'no': '354', 'name': 'New Tai Lue', 'direction': 'lr' },
+	'Taml': { 'no': '346', 'name': 'Tamil', 'direction': 'lr' },
+	'Tavt': { 'no': '359', 'name': 'Tai Viet', 'direction': 'lr' },
+	'Tayo': { 'no': '380', 'name': 'Tai Yo', 'direction': 'tb' },
+	'Telu': { 'no': '340', 'name': 'Telugu', 'direction': 'lr' },
+	'Teng': { 'no': '290', 'name': 'Tengwar', 'direction': 'lr' },
+	'Tfng': { 'no': '120', 'name': 'Tifinagh (Berber)', 'direction': 'lr' },
+	'Tglg': {
+		'no': '370',
+		'name': 'Tagalog (Baybayin, Alibata)',
+		'direction': 'lr'
+	},
+	'Thaa': { 'no': '170', 'name': 'Thaana', 'direction': 'rl' },
+	'Thai': { 'no': '352', 'name': 'Thai', 'direction': 'lr' },
+	'Tibt': { 'no': '330', 'name': 'Tibetan', 'direction': 'lr' },
+	'Tirh': { 'no': '326', 'name': 'Tirhuta', 'direction': 'lr' },
+	'Tnsa': { 'no': '275', 'name': 'Tangsa', 'direction': 'lr' },
+	'Todr': { 'no': '229', 'name': 'Todhri', 'direction': 'rl' },
+	'Tols': { 'no': '299', 'name': 'Tolong Siki', 'direction': 'lr' },
+	'Toto': { 'no': '294', 'name': 'Toto', 'direction': 'lr' },
+	'Tutg': { 'no': '341', 'name': 'Tulu-Tigalari', 'direction': 'lr' },
+	'Vaii': { 'no': '470', 'name': 'Vai', 'direction': 'lr' },
+	'Visp': { 'no': '280', 'name': 'Visible Speech', 'direction': 'lr' },
+	'Wara': {
+		'no': '262',
+		'name': 'Warang Citi (Varang Kshiti)',
+		'direction': 'lr'
+	},
+	'Wcho': { 'no': '283', 'name': 'Wancho', 'direction': 'lr' },
+	'Wole': { 'no': '480', 'name': 'Woleai', 'direction': 'mixed' },
+	'Yiii': { 'no': '460', 'name': 'Yi', 'direction': 'lr' }
+};
