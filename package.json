@@ -18,13 +18,13 @@
 	},
 	"homepage": "https://github.com/trenskow/localization-data#readme",
 	"dependencies": {
-		"@trenskow/merge": "^0.1.51",
+		"@trenskow/merge": "^0.1.52",
 		"countries-list": "^3.2.2"
 	},
 	"devDependencies": {
 		"@eslint/eslintrc": "^3.3.3",
-		"@eslint/js": "^9.13.0",
-		"eslint": "^9.39.2",
+		"@eslint/js": "^10.0.1",
+		"eslint": "^10.0.0",
 		"globals": "^17.3.0",
 		"xml2js": "^0.6.2"
 	}
