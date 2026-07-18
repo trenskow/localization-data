@@ -19,7 +19,7 @@
 	"homepage": "https://github.com/trenskow/localization-data#readme",
 	"dependencies": {
 		"@trenskow/merge": "^0.1.62",
-		"countries-list": "^3.4.0"
+		"countries-list": "^3.4.1"
 	},
 	"devDependencies": {
 		"@eslint/eslintrc": "^3.3.6",
